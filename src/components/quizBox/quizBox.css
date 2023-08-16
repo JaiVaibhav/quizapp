@@ -1,0 +1,19 @@
+.nagivationDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subHeader {
+  display: flex;
+
+  height: 2.5rem;
+  justify-content: center;
+}
+
+.quizBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
