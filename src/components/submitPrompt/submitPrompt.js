@@ -20,7 +20,7 @@ const style = {
   pb: 3,
 };
 export default function SubmitPrompt() {
-  const answerObj = useSelector((state) => state.quiz.answerObj);
+  const answerObj = useSelector((state) => state.answerObj);
   const [open, setOpen] = React.useState(false);
   const navigate = useNavigate();
   const handleOpen = () => {

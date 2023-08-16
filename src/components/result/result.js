@@ -5,7 +5,7 @@ import { Button, Typography } from "@mui/material";
 import { Link, Navigate } from "react-router-dom";
 
 function Result() {
-  const answerObj = useSelector((state) => state.quiz.answerObj);
+  const answerObj = useSelector((state) => state.answerObj);
   const correctAnswer = getCorrectAnswerCount(answerObj, quizDetails);
   console.log(answerObj);
 

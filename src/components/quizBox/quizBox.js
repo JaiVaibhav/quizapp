@@ -10,8 +10,11 @@ import "./quizBox.css";
 import SubmitPrompt from "../submitPrompt/submitPrompt";
 function QuizBox() {
   const [currQNo, setCurrQNo] = useState(0);
-  const answerObj = useSelector((state) => state.quiz.answerObj);
-  console.log(currQNo, quizDetails.length);
+  const answerObj = useSelector((state) => state.answerObj);
+  const store = useSelector((state) => state);
+
+  //console.log(store);
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
   function submitQuiz() {
