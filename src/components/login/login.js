@@ -15,7 +15,13 @@ export default function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    navigate("/quiz");
+    const email = data.get("email");
+    const password = data.get("password");
+    if (email !== "" && password !== "") {
+      navigate("/quiz");
+    } else {
+      alert("Please enter required details");
+    }
   };
 
   return (
