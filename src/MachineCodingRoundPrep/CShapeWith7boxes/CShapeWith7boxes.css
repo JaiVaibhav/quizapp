@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px;
+  background-color: black;
+}
+
+.boxContainer {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.boxRow {
+  display: flex;
+  gap: 5px;
+}
+.box:hover {
+  background-color: blue;
+}
+
+.boxSelected {
+  background-color: blue;
+}

@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.todoitemcontainer {
+  display: flex;
+  justify-content: space-between;
+}

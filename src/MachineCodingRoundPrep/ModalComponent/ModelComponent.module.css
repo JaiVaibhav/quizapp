@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.text {
+  width: 50%;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  border-color: blueviolet;
+}
+
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ModalText {
+  width: 100%;
+}
+.Modal {
+  background-color: wheat;
+  width: 30%;
+  border-radius: 5px;
+  padding: 1rem;
+  opacity: 100%;
+}
+.ModalHeader {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 50px;
+}
