@@ -16,6 +16,7 @@ import BishopOnChessBoard from "./MachineCodingRoundPrep/BishopOnChessBoard/Bish
 import TicTacToe from "./MachineCodingRoundPrep/TicTcToe/TicTacToe";
 import ToDoList from "./MachineCodingRoundPrep/ToDoList/ToDoList";
 import Pagination from "./MachineCodingRoundPrep/Pagination/Pagination";
+import InfiniteScroll from "./MachineCodingRoundPrep/InfiniteScroll/InfiniteScroll";
 
 function App() {
   // let persistor = persistStore(quizStore);
@@ -42,7 +43,8 @@ function App() {
     // <BishopOnChessBoard />
     // <TicTacToe />
     // <ToDoList />
-    <Pagination />
+    // <Pagination />
+    <InfiniteScroll />
   );
 }
 
