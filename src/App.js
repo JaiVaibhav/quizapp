@@ -17,6 +17,7 @@ import TicTacToe from "./MachineCodingRoundPrep/TicTcToe/TicTacToe";
 import ToDoList from "./MachineCodingRoundPrep/ToDoList/ToDoList";
 import Pagination from "./MachineCodingRoundPrep/Pagination/Pagination";
 import InfiniteScroll from "./MachineCodingRoundPrep/InfiniteScroll/InfiniteScroll";
+import NestedComment from "./MachineCodingRoundPrep/NestedComment/NestedComment";
 
 function App() {
   // let persistor = persistStore(quizStore);
@@ -44,7 +45,8 @@ function App() {
     // <TicTacToe />
     // <ToDoList />
     // <Pagination />
-    <InfiniteScroll />
+    // <InfiniteScroll />
+    <NestedComment />
   );
 }
 
