@@ -19,6 +19,7 @@ import Pagination from "./MachineCodingRoundPrep/Pagination/Pagination";
 import InfiniteScroll from "./MachineCodingRoundPrep/InfiniteScroll/InfiniteScroll";
 import NestedComment from "./MachineCodingRoundPrep/NestedComment/NestedComment";
 import ProgressBar from "./MachineCodingRoundPrep/ProgressBar/ProgressBar";
+import StopWatchTimer from "./MachineCodingRoundPrep/StopWatchTimer/StopWatchTimer";
 
 function App() {
   // let persistor = persistStore(quizStore);
@@ -48,7 +49,8 @@ function App() {
     // <Pagination />
     // <InfiniteScroll />
     // <NestedComment />
-    <ProgressBar />
+    // <ProgressBar />
+    <StopWatchTimer />
   );
 }
 

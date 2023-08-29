@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 2rem;
+}
+
+.heading {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.timerContainer {
+  display: flex;
+  gap: 2rem;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.button {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+div input {
+  width: 20px;
+  border: 0;
+  border-bottom: 2px solid;
+}
+
+div input :focus {
+  width: 20px;
+  border: 0;
+  border-bottom: 2px solid;
+}
