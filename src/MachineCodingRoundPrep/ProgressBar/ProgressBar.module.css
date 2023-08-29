@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.progressBar {
+  width: 30%;
+  height: 30px;
+  background-color: cadetblue;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.progressBar span {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  color: yellow;
+  height: inherit;
+}
+
+.progressBar div {
+  background-color: darkblue;
+  width: 60%;
+  height: 100%;
+  color: yellow;
+}

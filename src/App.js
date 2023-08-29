@@ -18,6 +18,7 @@ import ToDoList from "./MachineCodingRoundPrep/ToDoList/ToDoList";
 import Pagination from "./MachineCodingRoundPrep/Pagination/Pagination";
 import InfiniteScroll from "./MachineCodingRoundPrep/InfiniteScroll/InfiniteScroll";
 import NestedComment from "./MachineCodingRoundPrep/NestedComment/NestedComment";
+import ProgressBar from "./MachineCodingRoundPrep/ProgressBar/ProgressBar";
 
 function App() {
   // let persistor = persistStore(quizStore);
@@ -46,7 +47,8 @@ function App() {
     // <ToDoList />
     // <Pagination />
     // <InfiniteScroll />
-    <NestedComment />
+    // <NestedComment />
+    <ProgressBar />
   );
 }
 
