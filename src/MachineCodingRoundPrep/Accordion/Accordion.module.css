@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.heading {
+  font-size: large;
+  font-weight: bold;
+}
+
+.prodsInfoContaines {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.ItemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: mediumpurple;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0.5rem;
+  box-shadow: 10px 10px lightblue;
+}
+.prodInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  width: 100%;
+  font-size: larger;
+  font-weight: 400;
+  color: midnightblue;
+}
+.prodImg {
+  display: flex;
+  justify-content: center;
+}
